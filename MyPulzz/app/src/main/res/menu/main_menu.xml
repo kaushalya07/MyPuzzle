@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="@string/New_Game"
+        android:id="@+id/action_new_game"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_new_game"
+        />
+    <item
+        android:title="@string/Settings"
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_settings"
+        />
+    <item
+        android:title="@string/Help"
+        android:id="@+id/action_help"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        />
+</menu>
